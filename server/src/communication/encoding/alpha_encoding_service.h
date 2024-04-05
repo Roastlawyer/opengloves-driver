@@ -68,6 +68,10 @@ enum AlphaEncodingKey {
   kAlphaEncodingKey_Menu_Click,
   kAlphaEncodingKey_Calibration_Click,
 
+  kAlphaEncodingKey_WristRoll,
+  kAlphaEncodingKey_WristPitch,
+  kAlphaEncodingKey_WristYaw,
+
   kAlphaEncodingKey_Info,
   kAlphaEncodingKey_Info_FWVersion,
   kAlphaEncodingKey_Info_DeviceType,

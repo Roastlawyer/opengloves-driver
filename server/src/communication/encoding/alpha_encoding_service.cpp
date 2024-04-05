@@ -56,6 +56,9 @@ static const std::map<std::string, AlphaEncodingKey> alpha_encoding_input_key_st
     {"N", kAlphaEncodingKey_Menu_Click},          // system button pressed (opens SteamVR menu)
     {"O", kAlphaEncodingKey_Calibration_Click},   // calibration button
     {"P", kAlphaEncodingKey_Trigger_Value},       // analog trigger value
+    {"(QA)", kAlphaEncodingKey_WristRoll},        // wrist roll offset
+    {"(QB)", kAlphaEncodingKey_WristPitch},       // wrist pitch offset
+    {"(QC)", kAlphaEncodingKey_WristYaw},         // wrist yaw offset
 
     {"Z", kAlphaEncodingKey_Info},
     {"(ZV)", kAlphaEncodingKey_Info_FWVersion},   // firmware version
